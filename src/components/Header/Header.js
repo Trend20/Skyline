@@ -6,8 +6,12 @@ import './Header.css';
 
 function Header() {
     return (
-        <div>
+        <div className="header-container">
             <Navbar />
+
+            <div className="image">
+                <img src="../../img/hero.jpg" alt=""/>
+            </div>
         </div>
     )
 }

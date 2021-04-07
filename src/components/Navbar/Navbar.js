@@ -35,9 +35,9 @@ export default class Navbar extends Component {
             </div>
 
             <div className="social-media">
-                <FaFacebookF />
-                <FaGooglePlusG />
-                <FaTwitter />
+               <i> <FaFacebookF /></i>
+                <i><FaGooglePlusG /></i>
+                <i><FaTwitter /></i>
             </div>
             </div>
         )

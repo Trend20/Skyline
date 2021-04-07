@@ -1,0 +1,19 @@
+.header-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.image{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image img{
+    max-width: 100%;
+    transform: scale(1.5, 1.7);
+}
