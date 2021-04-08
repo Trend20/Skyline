@@ -26,19 +26,19 @@ class Description extends Component {
                     <div className="desc-stats">
                         <div className="stat">
                             <h1>3+</h1>
-                            <h5>Child Themes</h5>
+                            <p>Child Themes</p>
                         </div>
                         <div className="stat">
                             <h1>20+</h1>
-                            <h5>Subpages</h5>
+                            <p>Subpages</p>
                         </div>
                         <div className="stat">
                             <h1>40+</h1>
-                            <h5>Hours of Work</h5>
+                            <p>Hours of Work</p>
                         </div>
                         <div className="stat">
                             <h1>32+</h1>
-                            <h5>Cups of Coffee</h5>
+                            <p>Cups of Coffee</p>
                         </div>
                     </div>
                 </div>

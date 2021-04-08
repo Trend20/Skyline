@@ -80,8 +80,27 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
     grid-gap: 20px;
+    width: 60%;
     background: url(../../assets/about-stats.png);
-    background-size: cover;
+    background-size: 700px;
+    padding: 10px;
     background-repeat: no-repeat;
 }
 
+.stat{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.stat h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.stat p{
+    margin-top: 5px;
+    line-height: 1;
+    width: 100%;
+    opacity: 1;
+}
