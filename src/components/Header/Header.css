@@ -3,11 +3,12 @@
     width: 100%;
     justify-content: space-between;
     overflow-x: hidden;
+    background: rgb(245, 244, 244);
 }
 
 .image{
     display: flex;
-    width: 40%;
+    width: 42%;
     justify-content: center;
     align-items: center;
     overflow: hidden;

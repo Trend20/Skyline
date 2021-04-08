@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import logo from '../../assets/logo.png';
 
 // react icons
-import {FaFacebookF, FaGooglePlusG, FaTwitter} from 'react-icons/fa';
+import {FaFacebookF, FaGooglePlusG, FaTwitter, } from 'react-icons/fa';
 import './Navbar.css';
 
 export default class Navbar extends Component {
