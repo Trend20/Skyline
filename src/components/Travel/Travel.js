@@ -16,7 +16,7 @@ function Travel() {
                 </div>
                 <h3>Travel Home Page</h3>
                 <p>
-                Are you a travel agent who lacks a professional and responsive website? Use Skyline with its travel child home page to start and promote your online business on the Web with no professional skills.
+                  Are you a travel agent who lacks a professional and responsive website? Use Skyline with its travel child home page to start and promote your online business on the Web with no professional skills.
                 </p>
                 <button className="travel-btn">Buy theme now</button>
             </div>

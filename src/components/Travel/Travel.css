@@ -1,0 +1,70 @@
+.travel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    padding: 150px 0px;
+}
+
+.travel-image{
+    display: flex;
+    width: 50%;
+}
+
+.travel-image img{
+    display: flex;
+    width: 300%;
+    height: 500px;
+}
+
+.travel-text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.heading{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.heading h1{
+    font-size: 3rem;
+    font-weight: 900;
+    width: 80%;
+}
+
+.heading span{
+    width: 20%;
+    border: 2px solid #fff;
+}
+
+.travel-text h3{
+    margin-top: 50px;
+    font-size: 2rem;
+    width: 40%;
+    font-weight: 900;
+}
+
+.travel-text p{
+    margin-top: 30px;
+    width: 40%;
+    line-height: 2;
+    opacity: .5;
+}
+
+.travel-btn{
+    margin-top: 30px;
+    width: 40%;
+    color: #fff;
+    background: rgb(255, 115, 0);
+    font-size: 1rem;
+    padding: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
