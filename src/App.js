@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Team from './components/Team/Team';
 import Testimonials from './components/Testimonials/Testimonials';
 import Theme from './components/Theme/Theme';
+import Timer from './components/Timer/Timer';
 import Travel from './components/Travel/Travel';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      <Construction />
      <Testimonials />
      <Travel />
+     <Timer />
     </div>
   );
 }
