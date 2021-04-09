@@ -68,3 +68,8 @@
     border-radius: 50px;
     border: none;
 }
+
+.travel-btn:hover{
+    background: rgb(114, 111, 111);
+    color: rgb(221, 216, 216);
+}
