@@ -4,15 +4,22 @@
     width: 100%;
     background: rgb(248, 239, 239);
     align-items: center;
+    height: auto;
 }
 
 .contact-image{
     display: flex;
     width: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .contact-image img{
     max-width: 100%;
+    transform: scale(2, 1);
+    height: 700px;
+
 }
 
 .contact-us form{
