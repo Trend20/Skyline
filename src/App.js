@@ -5,6 +5,7 @@ import Construction from './components/Construction/Construction';
 import Contact from './components/Contact/Contact';
 import Description from './components/Description/Description';
 import Features from './components/Features/Features';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Team from './components/Team/Team';
 import Testimonials from './components/Testimonials/Testimonials';
@@ -26,6 +27,7 @@ function App() {
      <Timer />
      <Clients />
      <Contact />
+     <Footer />
     </div>
   );
 }
