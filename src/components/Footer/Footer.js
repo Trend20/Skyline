@@ -11,7 +11,7 @@ function Footer() {
                <p>All Right Reserved</p>
             </div> 
             <div className="footer-span">
-               <span></span>
+               <hr/>
             </div>
             <div className="footer-icons">
                    <i><FaFacebookF /></i>
