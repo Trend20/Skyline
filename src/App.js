@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Clients from './components/Cients/Clients';
 import Construction from './components/Construction/Construction';
 import Description from './components/Description/Description';
 import Features from './components/Features/Features';
@@ -22,6 +23,7 @@ function App() {
      <Testimonials />
      <Travel />
      <Timer />
+     <Clients />
     </div>
   );
 }

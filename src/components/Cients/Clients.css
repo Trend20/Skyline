@@ -1,0 +1,38 @@
+.clients{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 30px;
+}
+
+.section-heading{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.section-heading span{
+    width: 10%;
+    border: 2px solid #000;
+    margin-right: 30px;
+}
+
+.section-heading h1{
+    font-weight: 700;
+}
+
+.client-images{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-images img{
+    cursor: pointer;
+}
+
