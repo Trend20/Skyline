@@ -18,7 +18,7 @@ function Timer() {
             <div className="countdown">
                 <div id="timer"></div>
                 <form>
-                    <input type="email" placeholder="Email Address*" required/>
+                    <input type="email" id="input" placeholder="Email Address*" required/>
                     <br/>
                     <button className="form-btn">Get Now</button>
                 </form>

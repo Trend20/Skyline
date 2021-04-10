@@ -56,7 +56,7 @@
     width: 80%;
 }
 
-form input{
+#input{
     display: flex;
     outline: none;
     border: none;
