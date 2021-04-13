@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import logo from '../../assets/logo.png';
 
 // react icons
-import {FaFacebookF, FaGooglePlusG, FaTwitter, } from 'react-icons/fa';
+import {FaFacebookF, FaGooglePlusG, FaTwitter, FaChevronRight } from 'react-icons/fa';
 import './Navbar.css';
 
 export default class Navbar extends Component {
@@ -29,7 +29,7 @@ export default class Navbar extends Component {
             <div className="hero-description">
                 <h3>Skyline - The Best <b> MotoCMS Template</b></h3>
                 <p>Create and edit your business website with our responsive website builder.</p>
-                <button className="sub-btn">Subscribe</button>
+                <button className="sub-btn">Subscribe <i><FaChevronRight /></i></button>
 
                 <h1>Great</h1>
             </div>

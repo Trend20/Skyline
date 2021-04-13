@@ -1,5 +1,6 @@
 :root{
     --primaryColor: rgb(255, 115, 0);
+    /* --headerFontFamily: font-family: 'Abril Fatface', cursive; */
 }
 
 b{
@@ -95,8 +96,9 @@ b{
 }
 .sub-btn{
     padding: 30px;
-    width: 30%;
+    width: 40%;
     margin-left: 100px;
+    font-size: 1rem;
     margin-top: 30px;
     color: #fff;
     background: var(--primaryColor);
@@ -104,22 +106,36 @@ b{
     outline: none;
     border-radius: 50px;
     cursor: pointer;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-btn i{
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
+.sub-btn:hover{
+    background: rgb(114, 111, 111);
+    color: rgb(221, 216, 216);
 }
 
 .hero-description h1{
     position: absolute;
-    font-size: 15rem;
-    color: rgb(209, 204, 204);
-    z-index: -1;
+    font-size: 13rem;
+    color: rgb(211, 211, 211);
+    z-index: 1;
     opacity: .3;
-    top: 90%;
-    left: 3%;
+    top: 85%;
+    left: 1%;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .social-media{
     display: flex;
-    margin-left: 250px;
-    margin-top: 150px;
+    margin: 150px 0px 50px 250px;
     justify-content: space-between;
     width: 20%;
 }

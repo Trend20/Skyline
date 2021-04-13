@@ -7,10 +7,15 @@
 }
 
 .features h1{
-    font-size: 10rem;
-    font-weight: 900;
+    font-size: 13rem;
+    font-weight: 700;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
+    font-family: 'Abril Fatface', cursive;
+    top: 315%;
+    left: 0%;
+    opacity: .3;
+    color: rgb(228, 224, 224);
 }
 
 .feature-container{
@@ -25,6 +30,7 @@
     flex-direction: column;
     width: 100%;
     margin-top: 30px;
+    z-index: 99;
 }
 
 .f-details img{

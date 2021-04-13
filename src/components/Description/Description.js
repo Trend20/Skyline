@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { FaChevronRight } from 'react-icons/fa';
+
 // import component style
 import './Description.css';
 
@@ -21,7 +23,7 @@ class Description extends Component {
                     <p>Our all-in-one platform gives you everything you need to run your business.
                        Whether you’re just getting started or are an established brand, our powerful platform helps your business grow.
                     </p>
-                    <button className="desc-btn">Learn More</button>
+                    <button className="desc-btn">Learn More<i><FaChevronRight /></i></button>
 
                     <div className="desc-stats">
                         <div className="stat">

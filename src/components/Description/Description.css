@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding-top: 130px;
+    padding: 130px 0px;
 }
 
 .desc-image{
@@ -42,7 +42,7 @@
 .heading span{
     width: 18%;
     color: #000;
-    border: 3px solid #000;
+    border: 2px solid #000;
 }
 
 .desc-text p{
@@ -67,6 +67,10 @@
     cursor: pointer;
     border-radius: 50px;
     border: 1px solid rgb(219, 217, 217);
+}
+.desc-btn i{
+    display: flex;
+    margin-left: 5px;
 }
 
 .desc-btn:hover{
