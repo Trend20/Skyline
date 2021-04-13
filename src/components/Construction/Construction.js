@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { FaChevronRight } from 'react-icons/fa';
+
 import './Construction.css';
 
 function Construction() {
@@ -26,7 +28,7 @@ function Construction() {
                     </h5>
                 </div>
 
-                <button className="const-btn">Learn More</button>
+                <button className="const-btn">Learn More <i><FaChevronRight /></i></button>
             </div>
 
             <div className="const-image">

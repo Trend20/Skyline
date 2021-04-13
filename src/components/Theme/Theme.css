@@ -33,8 +33,16 @@
     width: 20%;
     cursor: pointer;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.theme-btn i{
+    font-size: .8rem;
+    display: flex;
+    margin: 5px;
+}
 .theme-btn:hover{
     background: rgb(110, 108, 108);
     color: #fff;

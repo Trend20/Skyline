@@ -71,6 +71,12 @@
     font-size: 1rem;
 }
 
+.const-btn i{
+    display: flex;
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
 .const-btn:hover{
     background: rgb(114, 111, 111);
     color: rgb(221, 216, 216);

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { FaChevronRight } from 'react-icons/fa';
+
 import './Contact.css';
 class Contact extends Component {
     render() {
@@ -15,7 +17,7 @@ class Contact extends Component {
                     <br/>
                     <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
                     <br/>
-                    <button className="submit-btn">Send Message</button>
+                    <button className="submit-btn">Send Message <i><FaChevronRight /></i></button>
                 </form>
             </div>
         );

@@ -83,6 +83,12 @@ form input::placeholder{
     border: none;
 }
 
+.form-btn i{
+    display: flex;
+    font-size: .9rem;
+    margin-left: 5px;
+}
+
 .form-btn:hover{
     color: rgb(240, 238, 238);
     background-color: rgb(161, 158, 158);

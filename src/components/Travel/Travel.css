@@ -67,6 +67,15 @@
     cursor: pointer;
     border-radius: 50px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-btn i{
+    font-size: .8rem;
+    display: flex;
+    margin-left: 5px;
 }
 
 .travel-btn:hover{

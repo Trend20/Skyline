@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { FaChevronRight } from 'react-icons/fa';
 
 import './Travel.css';
 
@@ -18,7 +19,7 @@ function Travel() {
                 <p>
                   Are you a travel agent who lacks a professional and responsive website? Use Skyline with its travel child home page to start and promote your online business on the Web with no professional skills.
                 </p>
-                <button className="travel-btn">Buy theme now</button>
+                <button className="travel-btn">Buy theme now <i><FaChevronRight /></i></button>
             </div>
         </div>
     )

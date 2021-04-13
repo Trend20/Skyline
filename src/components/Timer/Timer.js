@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaChevronRight } from 'react-icons/fa';
 import './Timer.css';
 
 function Timer() {
@@ -20,7 +21,7 @@ function Timer() {
                 <form>
                     <input type="email" id="input" placeholder="Email Address*" required/>
                     <br/>
-                    <button className="form-btn">Get Now</button>
+                    <button className="form-btn">Get Now <i><FaChevronRight /></i></button>
                 </form>
             </div>
         </div>
