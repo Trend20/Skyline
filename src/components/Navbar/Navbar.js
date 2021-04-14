@@ -4,12 +4,14 @@ import logo from '../../assets/logo.png';
 
 // react icons
 import {FaFacebookF, FaGooglePlusG, FaTwitter, FaChevronRight } from 'react-icons/fa';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import './Navbar.css';
 
 export default class Navbar extends Component {
     render() {
         return (
             <div className="hero">
+            <Router>
             <div className="navbar">
                <div className="logo">
                    <img src={logo} alt="logo"/>
@@ -17,14 +19,41 @@ export default class Navbar extends Component {
 
                <nav className="nav">
                    <ul>
-                       <li><a href="#" className="active">Home</a></li>
-                       <li><a href="#">About Us</a></li>
-                       <li><a href="#">Pages</a></li>
-                       <li><a href="#">Blog</a></li>
-                       <li><a href="#">Contact</a></li>
+                       <li>
+                          <Link to="/" className="active">Home</Link>
+                       </li>
+                       <li>
+                           <Link to="/about">About Us</Link>
+                       </li>
+                       <li>
+                           <Link to="/pages">Pages</Link>
+                       </li>
+                       <li>
+                           <Link to="/blog">Blog</Link>
+                       </li>
+                       <li>
+                           <Link to="/contacts">Contacts</Link>
+                       </li>
                    </ul>
                </nav>
+               {/* <Switch>
+                   <Route>
+                       <About />
+                   </Route>
+                   <Route>
+                        <Pages />
+                   </Route>
+                   <Route>
+                        <Blog />
+                   </Route>
+                   <Route>
+                        <Contact />
+                   </Route>
+               </Switch> */}
             </div>
+            </Router>
+
+
 
             <div className="hero-description">
                 <h3>Skyline - The Best <b> MotoCMS Template</b></h3>
