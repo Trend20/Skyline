@@ -1,110 +1,201 @@
-.our-description{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 130px 0px;
+.our-description {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 130px 0px;
 }
 
-.desc-image{
-    display: flex;
-    width: 50%;
-    height: auto;
+.desc-image {
+	display: flex;
+	width: 50%;
+	height: auto;
 }
 
-.desc-image img{
-    width: 150%;
-    height: 550px;
-    display: flex;
+.desc-image img {
+	width: 150%;
+	height: 550px;
+	display: flex;
 }
 
-.desc-text{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: 50px;
-    margin-top: 20px;
+.desc-text {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 50px;
+	margin-top: 20px;
 }
 
-.heading{
-    display: flex;
-    width: 60%;
-    align-items: center;
-    justify-content: space-between;
+.heading {
+	display: flex;
+	width: 60%;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.heading h1{
-    font-size: 3rem;
-    display: flex;
-    font-weight: 900;
-    width: 40%;
+.heading h1 {
+	font-size: 3rem;
+	display: flex;
+	font-weight: 900;
+	width: 40%;
 }
 
-.heading span{
-    width: 18%;
-    color: #000;
-    border: 2px solid #000;
+.heading span {
+	width: 18%;
+	color: #000;
+	border: 2px solid #000;
 }
 
-.desc-text p{
-    margin-top: 50px;
-    display: flex;
-    width: 50%;
-    line-height: 2;
-    opacity: .5;
-    font-size: 1.2rem;
+.desc-text p {
+	margin-top: 50px;
+	display: flex;
+	width: 50%;
+	line-height: 2;
+	opacity: 0.5;
+	font-size: 1.2rem;
 }
 
-.desc-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: .8;
-    padding: 30px;
-    margin-top: 30px;
-    width: 35%;
-    background: transparent;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50px;
-    border: 1px solid rgb(219, 217, 217);
+.desc-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.8;
+	padding: 30px;
+	margin-top: 30px;
+	width: 35%;
+	background: transparent;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50px;
+	border: 1px solid rgb(219, 217, 217);
 }
-.desc-btn i{
-    display: flex;
-    margin-left: 5px;
-}
-
-.desc-btn:hover{
-    background: rgb(26, 25, 25);
-    color: #fff;
-    opacity: .3;
+.desc-btn i {
+	display: flex;
+	margin-left: 5px;
 }
 
-.desc-stats{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
-    grid-gap: 20px;
-    width: 60%;
-    background: url(../../assets/about-stats.png);
-    background-size: 700px;
-    padding: 10px;
-    background-repeat: no-repeat;
+.desc-btn:hover {
+	background: rgb(26, 25, 25);
+	color: #fff;
+	opacity: 0.3;
 }
 
-.stat{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+.desc-stats {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 50px;
+	grid-gap: 20px;
+	width: 60%;
+	background: url(../../assets/about-stats.png);
+	background-size: 700px;
+	padding: 10px;
+	background-repeat: no-repeat;
 }
 
-.stat h1{
-    font-size: 3rem;
-    font-weight: bolder;
+.stat {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
 }
 
-.stat p{
-    margin-top: 5px;
-    line-height: 1;
-    width: 100%;
-    opacity: 1;
+.stat h1 {
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+.stat p {
+	margin-top: 5px;
+	line-height: 1;
+	width: 100%;
+	opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+	.our-description {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		flex-direction: column;
+		padding-top: 30px;
+		margin-top: 50px;
+	}
+
+	.desc-image {
+		display: flex;
+		width: 100%;
+		height: auto;
+	}
+
+	.desc-image img {
+		width: 100%;
+		height: auto;
+		display: flex;
+	}
+
+	.desc-text {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding: 20px;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.heading {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.heading h1 {
+		font-size: 1rem;
+		display: flex;
+		font-weight: 700;
+		width: 100%;
+	}
+
+	.heading span {
+		width: 50%;
+		color: #000;
+		border: 2px solid #000;
+	}
+
+	.desc-text p {
+		margin-top: 30px;
+		display: flex;
+		width: 100%;
+		line-height: 1.5;
+		opacity: 0.5;
+		font-size: 1.2rem;
+	}
+
+	.desc-btn {
+		display: flex;
+		margin-top: 30px;
+		width: 50%;
+		background: transparent;
+	}
+
+	.desc-stats {
+		display: grid;
+		width: 100%;
+	}
+
+	.stat {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0px;
+	}
+
+	.stat h1 {
+		font-size: 2rem;
+		font-weight: bolder;
+	}
+
+	.stat p {
+		margin-top: 5px;
+		line-height: 1;
+		width: 100%;
+		opacity: 1;
+	}
 }
