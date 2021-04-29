@@ -1,63 +1,93 @@
-.team{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    padding: 80px;
+.team {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	padding: 80px;
 }
 
-.team h1{
-    display: flex;
-    font-size: 10rem;
-    position: absolute;
-    z-index: -1;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 13rem;
-    left: 0;
-    opacity: .3;
-    color: rgb(228, 224, 224);
+.team h1 {
+	display: flex;
+	font-size: 10rem;
+	position: absolute;
+	z-index: -1;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 13rem;
+	left: 0;
+	opacity: 0.3;
+	color: rgb(228, 224, 224);
 }
 
-.team-members{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    width: 100%;
-    margin-top: 150px;
+.team-members {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	width: 100%;
+	margin-top: 150px;
 }
-.member{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.member h3{
-    font-size: 2rem;
+.member {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
 }
 
-.member p{
-    margin-top: 20px;
-    font-size: .9rem;
-    opacity: .3;
-}
-.team-links{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
+.member h3 {
+	font-size: 2rem;
 }
 
-.team-links i{
-    cursor: pointer;
+.member p {
+	margin-top: 20px;
+	font-size: 0.9rem;
+	opacity: 0.3;
+}
+.team-links {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
 }
 
-.team-links i:hover{
-    /* border-bottom: 2px solid rgb(255, 115, 0); */
-    text-decoration: underline;
+.team-links i {
+	cursor: pointer;
 }
 
-.member img{
-    margin-top: 50px;
+.team-links i:hover {
+	/* border-bottom: 2px solid rgb(255, 115, 0); */
+	text-decoration: underline;
+}
+
+.member img {
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+	.team {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		padding: 30px;
+	}
+
+	/* .team h1 {
+		display: flex;
+		font-size: 10rem;
+		position: absolute;
+
+		z-index: -1;
+		font-family: 'Abril Fatface', cursive;
+		font-size: 13rem;
+		left: 0;
+		opacity: 0.3;
+		color: rgb(228, 224, 224);
+	} */
+
+	.team-members {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 20px;
+		width: 100%;
+		margin-top: 30px;
+	}
 }
