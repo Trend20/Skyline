@@ -43,7 +43,7 @@ function Hero() {
 						Subscribe
 						<FaChevronRight />
 					</button>
-					<h1 id="absolute">Great</h1>
+					{/* <h1 id="absolute">Great</h1> */}
 
 					<div className="section-icons">
 						<i>
