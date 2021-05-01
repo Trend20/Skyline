@@ -1,10 +1,14 @@
-import React from 'react';
-import { FaChevronRight, FaGooglePlusG } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaChevronRight, FaGooglePlusG, FaBars } from 'react-icons/fa';
 import { TiSocialFacebook, TiSocialTwitter } from 'react-icons/ti';
+import { AiOutlineClose } from 'react-icons/ai';
 
 import './Hero.css';
 
 function Hero() {
+	const [click, setClick] = useState(false);
+	const handleClick = () => setClick(!click);
+	const closeMobileMenu = () => setClick(false);
 	return (
 		<div className="hero">
 			<div className="hero-text">
@@ -12,27 +16,30 @@ function Hero() {
 					<div className="logo">
 						<img src="logo.png" alt="logo" />
 					</div>
-					<nav>
+					<nav className={click ? 'nav-options active' : 'nav-options'}>
 						<ul>
 							<li>
 								<a href="#" className="active">
 									Home
 								</a>
 							</li>
-							<li>
+							<li onClick={closeMobileMenu}>
 								<a href="#">About Us</a>
 							</li>
-							<li>
+							<li onClick={closeMobileMenu}>
 								<a href="#">Pages</a>
 							</li>
-							<li>
+							<li onClick={closeMobileMenu}>
 								<a href="#">Blog</a>
 							</li>
-							<li>
+							<li onClick={closeMobileMenu}>
 								<a href="#">Contact</a>
 							</li>
 						</ul>
 					</nav>
+					<div className="toggle mobile-menu" onClick={handleClick}>
+						{click ? <AiOutlineClose className="menu-icon" /> : <FaBars className="menu-icon" />}
+					</div>
 				</header>
 				<div className="hero-description">
 					<h1>

@@ -60,7 +60,11 @@
 	.footer-text p {
 		margin-top: 7px;
 		opacity: 0.5;
-		font-size: 1rem !important;
+		font-size: 0.9rem !important;
+		/* display: flex; */
+		justify-content: center;
+		align-items: center;
+		margin: auto;
 	}
 
 	.footer-span {
