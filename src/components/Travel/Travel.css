@@ -1,85 +1,160 @@
-.travel{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    background: #000;
-    color: #fff;
-    padding: 150px 0px;
+.travel {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background: #000;
+	color: #fff;
+	padding: 150px 0px;
 }
 
-.travel-image{
-    display: flex;
-    width: 50%;
+.travel-image {
+	display: flex;
+	width: 50%;
 }
 
-.travel-image img{
-    display: flex;
-    width: 300%;
-    height: 500px;
+.travel-image img {
+	display: flex;
+	width: 300%;
+	height: 500px;
 }
 
-.travel-text{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    margin-left: 70px;
+.travel-text {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	margin-left: 70px;
 }
 
-.heading{
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
+.heading {
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
 }
 
-.heading h1{
-    font-size: 3rem;
-    font-weight: 900;
-    width: 80%;
+.heading h1 {
+	font-size: 3rem;
+	font-weight: 900;
+	width: 80%;
 }
 
-.heading span{
-    width: 20%;
-    border: 2px solid #fff;
+.heading span {
+	width: 20%;
+	border: 2px solid #fff;
 }
 
-.travel-text h3{
-    margin-top: 50px;
-    font-size: 2rem;
-    width: 40%;
-    font-weight: 900;
+.travel-text h3 {
+	margin-top: 50px;
+	font-size: 2rem;
+	width: 40%;
+	font-weight: 900;
 }
 
-.travel-text p{
-    margin-top: 30px;
-    width: 40%;
-    line-height: 2;
-    opacity: .5;
+.travel-text p {
+	margin-top: 30px;
+	width: 40%;
+	line-height: 2;
+	opacity: 0.5;
 }
 
-.travel-btn{
-    margin-top: 30px;
-    width: 40%;
-    color: #fff;
-    background: rgb(255, 115, 0);
-    font-size: 1rem;
-    padding: 30px;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.travel-btn {
+	margin-top: 30px;
+	width: 40%;
+	color: #fff;
+	background: rgb(255, 115, 0);
+	font-size: 1rem;
+	padding: 30px;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.travel-btn i{
-    font-size: .8rem;
-    display: flex;
-    margin-left: 5px;
+.travel-btn i {
+	font-size: 0.8rem;
+	display: flex;
+	margin-left: 5px;
 }
 
-.travel-btn:hover{
-    background: rgb(114, 111, 111);
-    color: rgb(221, 216, 216);
+.travel-btn:hover {
+	background: rgb(114, 111, 111);
+	color: rgb(221, 216, 216);
 }
 
+@media screen and (max-width: 768px) {
+	.travel {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		padding: 30px 0px;
+	}
+
+	.travel-image {
+		display: flex;
+		width: 100%;
+	}
+
+	.travel-image img {
+		display: flex;
+		width: 100%;
+		height: 100%;
+	}
+
+	.travel-text {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 30px;
+	}
+
+	.heading {
+		display: flex;
+		width: 100%;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.heading h1 {
+		font-size: 2rem;
+		font-weight: 900;
+		width: 100%;
+	}
+
+	.heading span {
+		width: 80%;
+		margin-top: 20px;
+		border: 3px solid #fff;
+	}
+
+	.travel-text h3 {
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	.travel-text p {
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.travel-btn {
+		margin-top: 20px;
+		width: 60%;
+		color: #fff;
+		padding: 20px;
+	}
+
+	.travel-btn i {
+		font-size: 0.8rem;
+		display: flex;
+		margin-left: 5px;
+	}
+
+	.travel-btn:hover {
+		background: rgb(114, 111, 111);
+		color: rgb(221, 216, 216);
+	}
+}
