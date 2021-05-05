@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaChevronRight, FaGooglePlusG, FaBars } from 'react-icons/fa';
 import { TiSocialFacebook, TiSocialTwitter } from 'react-icons/ti';
 import { AiOutlineClose } from 'react-icons/ai';
+import { Link } from 'react-scroll';
 
 import './Hero.css';
 
@@ -10,30 +11,40 @@ function Hero() {
 	const handleClick = () => setClick(!click);
 	const closeMobileMenu = () => setClick(false);
 	return (
-		<div className="hero">
+		<div className="hero" id="home">
 			<div className="hero-text">
 				<header>
 					<div className="logo">
 						<img src="logo.png" alt="logo" />
 					</div>
-					<nav className={click ? 'nav-options active' : 'nav-options'}>
+					<nav className={click ? 'nav-options active' : 'nav-options'} id="navbar">
 						<ul>
 							<li>
-								<a href="#" className="active">
-									Home
-								</a>
+								<Link to="home" spy={true} smooth={true}>
+									<a href="#" className="active">
+										Home
+									</a>
+								</Link>
 							</li>
 							<li onClick={closeMobileMenu}>
-								<a href="#">About Us</a>
+								<Link to="about" spy={true} smooth={true}>
+									<a href="#">About Us</a>
+								</Link>
 							</li>
 							<li onClick={closeMobileMenu}>
-								<a href="#">Pages</a>
+								<Link to="services" spy={true} smooth={true}>
+									<a href="#">Services</a>
+								</Link>
 							</li>
 							<li onClick={closeMobileMenu}>
-								<a href="#">Blog</a>
+								<Link to="team" spy="true" smooth={true}>
+									<a href="#">Team</a>
+								</Link>
 							</li>
 							<li onClick={closeMobileMenu}>
-								<a href="#">Contact</a>
+								<Link to="contact" spy={true} smooth={true}>
+									<a href="#">Contact</a>
+								</Link>
 							</li>
 						</ul>
 					</nav>

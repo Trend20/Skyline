@@ -5,7 +5,7 @@ import './Team.css';
 
 function Team() {
 	return (
-		<div className="team">
+		<div className="team" id="team">
 			{/* <h1>Team</h1> */}
 
 			<div className="team-members">

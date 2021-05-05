@@ -5,7 +5,7 @@ import './Features.css';
 
 function Features() {
 	return (
-		<div className="features">
+		<div className="features" id="services">
 			{/* <h1>Features</h1> */}
 
 			<div className="feature-container">
