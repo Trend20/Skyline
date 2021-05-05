@@ -43,7 +43,7 @@ function Hero() {
 				</header>
 				<div className="hero-description">
 					<h1>
-						Skyline - The Best <b> MotoCMS Template</b>
+						Skyline - We offer <b> 24hr Services</b>
 					</h1>
 					<p>Create and edit your business website with our responsive website builder.</p>
 					<button>
